@@ -1,0 +1,65 @@
+
+body, html {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+#ge{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+
+#menu{
+    color: #ffff;
+    list-style: none;
+    margin-top: 45px;
+    padding: 30px;
+    background-color:#06aa48;
+}
+
+#menu li{
+    display: inline;
+    padding: 10px;
+}
+
+#menu li a{
+    color: #ffff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    display: inline;
+}
+
+#menu li a:hover{
+    color: #ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
