@@ -1,0 +1,109 @@
+body {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+}
+.cabeça{
+    justify-content: space-between;
+    margin-bottom: -3%;
+}
+#header{
+    display: inline-flex;
+    list-style: none;
+    padding-inline-start: 3%;
+    justify-content:space-between ;
+}
+#header li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 8%;
+    font-size:14px;
+    font-family: "Libre Franklin";
+    font-weight: 10%;
+    font-family: 'Poppins';
+    margin-left: 4%;
+    top: -5px;
+}
+
+#menu{
+    color: #ffff;
+    list-style: none;
+    margin-top: 40px;
+    padding-bottom: 0%;
+    background-color:#06aa48;
+}
+
+#menu li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 2.5%;
+    font-size:14;
+    font-family: "Libre Franklin";
+    font-weight: 30%;
+    justify-content:center ;
+    top: -15px;
+
+}
+
+#menu li a{
+    color: #ffff;
+    display: inline;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Libre Franklin";
+    font-weight: bold;
+
+}
+
+#menu li a:hover{
+    color: #ffff;
+}
+#menu li:last-child{
+    justify-content: center;
+    display: inline-flex;
+    padding: 0px;
+    padding-inline-start: 33.5%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight:500;
+    margin-top: 15px;
+    top: -15px;
+    
+}
+#banner {
+    position:relative;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    height: 516px;
+    margin-left: 0;
+}
+picture img{
+    position: relative;
+    left: -10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 520px;
+    width: 1550px;
+    right: -10px;
+}
+#games {
+    position: absolute; /* Definir o posicionamento absoluto */
+    top: 70%; /* Alinhar os placares dos jogos no topo do banner */
+    left: -20%; /* Alinhar os placares dos jogos à esquerda do banner */
+    width: 100%; /* Cobrir toda a largura do banner */
+    text-align: center;
+
+
+}
+.game {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}

@@ -1,0 +1,165 @@
+body {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+}
+.cabeça{
+    justify-content: space-between;
+    margin-bottom: -10%;
+}
+.cabeça a{
+    text-decoration: none;
+}
+#header li a#globo{
+    color: rgb(6, 105, 222);
+    font-weight: bolder;
+}
+#header li a#g1{
+    color: rgb(196, 23, 12);
+    font-weight: bolder;
+}
+#header li a#geH{
+    color: rgb(6, 170, 72);
+    font-weight: bolder;
+}
+#header li a#gsh{
+    color: rgb(255, 103, 0);
+    font-weight: bolder;
+}
+#header li a#globp{
+    color: rgb(251, 3, 52);
+    font-weight: bolder;
+}
+#header li a#cartola{
+    color:  rgb(227, 103, 43);
+    font-weight: bolder;
+}
+#header li a#sport{
+    color: rgb(8, 5, 58);
+    font-weight: bolder;
+}
+#header{
+    display: inline-flex;
+    list-style: none;
+    padding-inline-start: 3%;
+    justify-content:space-between ;
+    height: 10px;
+}
+#header li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 8%;
+    font-size:14px;
+    font-family: "Libre Franklin";
+    font-weight: 10%;
+    font-family: 'Poppins';
+    margin-left: 4%;
+    top: -4px;
+
+}
+
+#menu{
+    color: #ffff;
+    list-style: none;
+    margin-top: 2px;
+    padding-bottom: 0%;
+    background-color:#06aa48;
+}
+
+#menu li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 2.2%;
+    font-size:14;
+    font-family: "Libre Franklin";
+    font-weight: 30%;
+    justify-content:center ;
+    top: -15px;
+    left: 20px;
+
+}
+
+#menu li a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color: #ffff;
+}
+#menu li:last-child{
+    justify-content: center;
+    display: inline-flex;
+    padding: 0px;
+    padding-inline-start: 32.5%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight:500;
+    margin-top: 15px;
+    top: -15px;
+    left: 5px;
+    
+}
+#banner {
+    position:relative;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    height: 516px;
+    margin-left: 0;
+}
+li img{
+    height: 150px;
+    width: 150px;
+    justify-content: space-between;
+    padding: 70px;
+    justify-content: center;
+    flex-direction: column;
+    flex: 2;
+    box-shadow: 5px 4px 5px ;;
+    text-decoration: none;
+}
+li img:hover{
+    position: relative;
+    -webkit-transform: scale(1);
+    transform: scale(1.04);
+    filter: opacity(100%);
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: -10px;
+    right: -10px;
+    justify-content: space-between;
+    left: 10%;
+    padding-right: auto;
+    padding-left: auto;
+    text-decoration: none;
+}
+#times{
+    list-style: none;
+    display: inline-flex;
+}
+#games {
+    position: absolute; /* Definir o posicionamento absoluto */
+    top: 70%; /* Alinhar os placares dos jogos no topo do banner */
+    left: -20%; /* Alinhar os placares dos jogos à esquerda do banner */
+    width: 100%; /* Cobrir toda a largura do banner */
+    text-align: center;
+    text-decoration: none;
+
+
+}
+#times a{
+    text-decoration: none;
+}
+.game {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}

@@ -1,0 +1,156 @@
+body {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+}
+.cabeça{
+    justify-content: space-between;
+    margin-bottom: -3%;
+    text-decoration: none;
+}
+.cabeça a{
+    text-decoration: none;
+}
+#header li a#globo{
+    color: rgb(6, 105, 222);
+    font-weight: bolder;
+}
+#header li a#g1{
+    color: rgb(196, 23, 12);
+    font-weight: bolder;
+}
+#header li a#geH{
+    color: rgb(6, 170, 72);
+    font-weight: bolder;
+}
+#header li a#gsh{
+    color: rgb(255, 103, 0);
+    font-weight: bolder;
+}
+#header li a#globp{
+    color: rgb(251, 3, 52);
+    font-weight: bolder;
+}
+#header li a#cartola{
+    color:  rgb(227, 103, 43);
+    font-weight: bolder;
+}
+#header li a#sport{
+    color: rgb(8, 5, 58);
+    font-weight: bolder;
+}
+#header{
+    display: inline-flex;
+    list-style: none;
+    padding-inline-start: 3%;
+    justify-content:space-between ;
+    text-decoration: none;
+}
+#header li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 6%;
+    font-size:15px;
+    font-family: "Libre Franklin";
+    font-weight: 80%;
+    font-family: 'Poppins';
+    margin-left: 4%;
+    top: -5px;
+    text-decoration: none;
+}
+
+#menu{
+    color: #ffff;
+    list-style: none;
+    margin-top: 40px;
+    padding-bottom: 0%;
+    background-color:#06aa48;
+}
+
+#menu li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 2.5%;
+    font-size:14;
+    font-family: "Libre Franklin";
+    font-weight: 30%;
+    justify-content:center ;
+    top: -15px;
+
+}
+
+#menu li a{
+    color: #ffff;
+    display: inline;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Libre Franklin";
+    font-weight: 30%;
+}
+
+#menu li a:hover{
+    color: #ffff;
+}
+#menu li:last-child{
+    text-decoration: none;
+    justify-content: center;
+    display: inline-flex;
+    padding: 0px;
+    padding-inline-start: 33.5%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight:500;
+    margin-top: 15px;
+    top: -15px;
+    
+}
+table {
+    width: 850px;
+    border-collapse: collapse;
+    margin-left: 10%;
+    height: 5%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    font-size: 11px;
+    font-stretch: 100%;
+    font-weight: 400;
+    width: 250px;
+    text-transform: uppercase;
+    font-family: "Libre Franklin";
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+tr:hover {
+    background-color: #ffffff;
+}
+td{
+    font-size: 17px;
+    font-family: "M PLUS 2", sans-serif;
+    width: 610px;
+    border-top: 1px solid rgba(5, 0, 0, 0.17);
+    border-bottom: 1px solid rgba(5, 0, 0, 0.17);
+    padding-right: 5%;
+}
+tr td #back{
+    background-color: rgb(151, 151, 151);
+}
+h1{
+    font-family: "Libre Franklin";
+    text-align: left;
+    margin-left:10% ;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 80px;
+}

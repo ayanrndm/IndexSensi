@@ -66,7 +66,7 @@ body {
     list-style: none;
     margin-top: 40px;
     padding-bottom: 0%;
-    background-color:#06aa48;
+    background-color:#000000;
 }
 
 #menu li{
@@ -88,9 +88,9 @@ body {
     padding: 0px;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-family: "Libre Franklin";
-    font-weight: 30%;
-
+    font-family: "Poppins";
+    font-weight: 500%;
+    font-size: 16px;
 }
 
 #menu li a:hover{
@@ -100,13 +100,13 @@ body {
     justify-content: center;
     display: inline-flex;
     padding: 0px;
-    padding-inline-start: 33.5%;
-    font-size: 40px;
-    font-family: 'Poppins';
-    font-weight:500;
+    padding-inline-start: 29.0%;
+    font-size: 32px;
+    font-family:"M PLUS 2", sans-serif;
     margin-top: 15px;
-    top: -15px;
-    
+    top: -10px;
+    text-align: center;
+    font-weight: 300px;
 }
 
 .news-container{
@@ -125,13 +125,13 @@ body {
     background-color: #fff;
     box-sizing: border-box;
     margin-bottom:20px;
-    padding: 15px;
+    padding: 3px;
     overflow: hidden;
     
     
 }
 .news-item img {
-    width: 550px;
+    width: 650px;
     height: 540px;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
@@ -143,20 +143,20 @@ body {
   .news-item h2 {
     justify-content: space-between;
     position: absolute;
-    top: 420px;
+    top: 440px;
     font-size: 22px;
     margin: 10px 0;
     padding-left: 7px;
     word-wrap:break-word;
-    width: 280px; 
+    width: 350px; 
     font-family: "Libre Franklin" ;
     color: #f8f6f6;
     }
   .news-item p {
-    top: 87%;
+    top: 79%;
     margin: 10px 0;
     position: absolute;
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 7px;
     color: rgb(255, 255, 255);
     font-family: "Libre Franklin";
@@ -167,20 +167,19 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 45%;
-    width: 480px;
+    height: 40%;
+    width: 500px;
     margin-right: 10%;
   }
   .news-item img#img2{
-    position: absolute;
     display: flex;
     flex-direction: column;
     flex: 1;
     height: 42%;
-    width: 480px;
-    margin-right: 3.5%;
-    right: 71px;
-    margin-top: 48px;
+    width: 500px;
+    margin-right: 10%;
+    right: 78px;
+    margin-top: 45px;
   }
   .news-item img#img2:hover{
     -webkit-transform: scale(1);
@@ -192,17 +191,21 @@ body {
     flex-direction: column;
     padding-bottom: 100%;
     justify-content: flex-start;
-    top: 80%;
-    font-size: small;
+    top: 69%;
+    font-size: 16px;
     color: #fff;
+    word-wrap: break-word;
+    width: 350px;
   }
-  .news-item p#cla{
+  .news-item p #cla{
+
     padding: 0;
-    top: 87%;
+    top: 110%;
     font-family: "Libre Franklin";
     padding-left: 7px;
     color: #ffffff;
     list-style-type:disc;
+    font-size: 15px;
   }
   .news-item img:hover{
     -webkit-transform: scale(1);
@@ -219,39 +222,29 @@ body {
     flex-direction: column;
     padding-bottom: 100%;
     justify-content: flex-start;
-    top: 30%;
-    font-size: small;
+    top: 27%;
+    font-size: 16px;
     color: #fff;
+    word-wrap: break-word;
+    width: 250px;
   }
   .news-item p.para2{
     padding: 0;
-    top: 37%;
+    top: 34%;
     font-family: "Libre Franklin";
     padding-left: 7px;
     color: #ffffff;
     list-style-type:disc;
+    font-size: 17px;
   }
-  #frame{
-
-    overflow: hidden;
-    display: none;
-  }
-   .equipes img {
-    justify-content: space-between;
-    position: absolute;
-    width: 35px;
-    left: 40px;
-    box-shadow: 2px 6px 5px;
-    background-color: hsl(0, 0%, 100%);
-    display: inline-block;
-    top:100px;
-  }
-
-  .equipes:hover + .dropdown{
-    display: block;
-    position: absolute;
-  }
-
+iframe{
+  margin-right: 500px;
+  margin-top: 50px;
+  justify-content: center;
+}
+#melhores{
+  font-family: "Poppins";
+}
 
 
 
