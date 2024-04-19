@@ -67,8 +67,8 @@ a{
   
   .lista1:hover .lista2 {
     display: inline-block;
-    margin-left: -150px;
     list-style: none;
+    margin-left: -150px;
   }
   
   .lista2 {
@@ -77,6 +77,7 @@ a{
     width: 200px;
     display: none;
     list-style: none;
+    margin-left: -200px;
   }
   
   .lista-link {
@@ -123,4 +124,5 @@ a{
     width: 95%;
     margin:0 auto;
     text-align: center;
+
 }
