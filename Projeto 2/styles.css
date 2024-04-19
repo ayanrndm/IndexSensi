@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#cabeçalho{
+    height: 150px;
+    background-color: orange;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+#menu{
+    margin-top: 10px;
+    margin-left: 37px;
+    height: 500px;
+    width: 200px;
+    background-color: greenyellow;
+    float: left;
+}
+#conteudo{
+    height: 500px;
+    width: 1050px;
+
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+#lado{
+    height: 500px;
+    width: 201px;
+    float: left;
+    background-color: brown;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-block-end: 5px;
+}
+
+#rodapé{
+    height: 100px;
+    background-color: crimson;
+    clear: both;
+    width: 95%;
+    margin:0 auto;
+    text-align: center;
+}
